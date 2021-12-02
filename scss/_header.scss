@@ -1,0 +1,54 @@
+.header__color{
+    background-color: rgb(117, 95, 242);
+    height: 670px;
+}
+p{
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+h4{
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+.button{
+    padding: 10px 40px;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    // color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.btn__see{
+    background-color: #fff;
+    color: black;
+    &:hover{
+        background-color: transparent;
+        color: white;
+        text-decoration: none;
+    }
+}
+.btn__buy{
+    color: white;
+    &:hover{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+    }
+}
+.header-content{
+    z-index: 10;
+}
+.banner{
+
+    position: absolute;
+    left: -490px;
+    top: -40px;
+    z-index: 2;
+}
+.img-header{
+    overflow: hidden;
+}
